@@ -1,0 +1,26 @@
+Comprehensive resource use monitoring for HPC systems with TACC stats:
+Doug James , Robert McLay , Si Liu , R. Todd Evans , William L. Barth , Antia Lamas-Linares , Reuben Budiardja , Mark Fahey, Tales from the trenches: can user support tools make a difference?, Proceedings of the Second International Workshop on HPC User Support Tools, p.1-11, November 15-15, 2015, Austin, Texas
+	
+Carlos Rosales , Antonio Gómez-Iglesias , Andrew Predoehl, Remora: a resource monitoring tool for everyone, Proceedings of the Second International Workshop on HPC User Support Tools, p.1-8, November 15-15, 2015, Austin, Texas
+	
+User environment tracking and problem detection with XALT:
+Reuben D. Budiardja , Kapil Agrawal , Mark Fahey , Robert McLay , Doug James, Library Function Tracking with XALT, Proceedings of the XSEDE16 Conference on Diversity, Big Data, and Science at Scale, July 17-21, 2016, Miami, USA
+	
+Ruizhu Huang , Weijia Xu , Robert McLay, A web interface for XALT log data analysis, Proceedings of the XSEDE16 Conference on Diversity, Big Data, and Science at Scale, July 17-21, 2016, Miami, USA
+	
+Doug James , Robert McLay , Si Liu , R. Todd Evans , William L. Barth , Antia Lamas-Linares , Reuben Budiardja , Mark Fahey, Tales from the trenches: can user support tools make a difference?, Proceedings of the Second International Workshop on HPC User Support Tools, p.1-11, November 15-15, 2015, Austin, Texas
+	
+Todd Evans , Antonio Gómez-Iglesias , Cyrus Proctor, PyTACC: HPC Python at the texas advanced computing center, Proceedings of the 5th Workshop on Python for High-Performance and Scientific Computing, p.1-7, November 15-15, 2015, Austin, Texas
+	
+Reuben Budiardja , Mark Fahey , Robert McLay , Prasad Maddumage Don , Bilel Hadri , Doug James, Community use of XALT in its first year in production, Proceedings of the Second International Workshop on HPC User Support Tools, p.1-10, November 15-15, 2015, Austin, Texas
+	
+Maria Esteva , Sandra Sweat , Robert McLay , Weijia Xu , Sivakumar Kulasekaran, Data Curation with a Focus on Reuse, Proceedings of the 16th ACM/IEEE-CS on Joint Conference on Digital Libraries, June 19-23, 2016, Newark, New Jersey, USA
+	
+Rory C. Kelly , Si Liu , Siddhartha S. Ghosh , Davide Del Vento , David L. Hart , Dan Nagle , B. J. Smith , Richard A. Valent, Advanced user environment design and implementation on integrated multi-architecture supercomputers, Proceedings of the 2015 XSEDE Conference: Scientific Advancements Enabled by Enhanced Cyberinfrastructure, July 26-30, 2015, St. Louis, Missouri
+
+Modern scientific software management using EasyBuild and Lmod:	
+Rory C. Kelly , Si Liu , Siddhartha S. Ghosh , Davide Del Vento , David L. Hart , Dan Nagle , B. J. Smith , Richard A. Valent, Advanced user environment design and implementation on integrated multi-architecture supercomputers, Proceedings of the 2015 XSEDE Conference: Scientific Advancements Enabled by Enhanced Cyberinfrastructure, July 26-30, 2015, St. Louis, Missouri
+	
+Erich Birngruber , Petar Forai , Aaron Zauner, Total recall: holistic metrics for broad systems performance and user experience visibility in a data-intensive computing environment, Proceedings of the Second International Workshop on HPC User Support Tools, p.1-12, November 15-15, 2015, Austin, Texas
+	
+Todd Gamblin , Matthew LeGendre , Michael R. Collette , Gregory L. Lee , Adam Moody , Bronis R. de Supinski , Scott Futral, The Spack package manager: bringing order to HPC software chaos, Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, November 15-20, 2015, Austin, Texas
