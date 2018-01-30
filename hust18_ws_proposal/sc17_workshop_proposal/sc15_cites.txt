@@ -1,0 +1,15 @@
+Tales from the trenches: can user support tools make a difference?:
+Reuben D. Budiardja , Kapil Agrawal , Mark Fahey , Robert McLay , Doug James, Library Function Tracking with XALT, Proceedings of the XSEDE16 Conference on Diversity, Big Data, and Science at Scale, July 17-21, 2016, Miami, USA
+	
+Maria Esteva , Sandra Sweat , Robert McLay , Weijia Xu , Sivakumar Kulasekaran, Data Curation with a Focus on Reuse, Proceedings of the 16th ACM/IEEE-CS on Joint Conference on Digital Libraries, June 19-23, 2016, Newark, New Jersey, USA
+
+Remora: a resource monitoring tool for everyone:
+Antonio Gómez-Iglesias , Carlos Rosales , Todd Evans, Practical Monitoring of Resource Utilization for HPC Applications, Proceedings of the XSEDE16 Conference on Diversity, Big Data, and Science at Scale, July 17-21, 2016, Miami, USA
+
+Community use of XALT in its first year in production:
+Ruizhu Huang , Weijia Xu , Robert McLay, A web interface for XALT log data analysis, Proceedings of the XSEDE16 Conference on Diversity, Big Data, and Science at Scale, July 17-21, 2016, Miami, USA
+
+Total recall: holistic metrics for broad systems performance and user experience visibility in a data-intensive computing environment:	
+Reuben D. Budiardja , Kapil Agrawal , Mark Fahey , Robert McLay , Doug James, Library Function Tracking with XALT, Proceedings of the XSEDE16 Conference on Diversity, Big Data, and Science at Scale, July 17-21, 2016, Miami, USA
+
+Antonio Gómez-Iglesias , Carlos Rosales , Todd Evans, Practical Monitoring of Resource Utilization for HPC Applications, Proceedings of the XSEDE16 Conference on Diversity, Big Data, and Science at Scale, July 17-21, 2016, Miami, USA
