@@ -1,23 +1,23 @@
 Call for participation
 ======================
 
-HUST-17:  Fourth International Workshop on HPC User Support Tools.
+HUST-19:  6th International Workshop on HPC User Support Tools.
 
-Held in conjunction with SC17: The International Conference on High
+Held in conjunction with SC19: The International Conference on High
 Performance Computing, Networking, Storage and Analysis.
 
-Denver, CO, USA on 12-17 November 2017.
+Denver, Colorado  USA on 17-22 November 2019.
 
 
 Background
 ----------
 
-Supercomputing centers exist to drive scientific discovery by
+Supercomputing centres exist to drive scientific discovery by
 supporting researchers in computational science fields.  To enable users
-to be more productive in these complex HPC environment, in Larger HPC centers 
+to be more productive in these complex HPC environment, in Larger HPC centres 
 they can provide sys-admins and user support teams.  These teams serve many roles, from setting up
-accounts, to consulting on math libraries and code optimization, to
-managing HPC software stacks.  In smaller centers it may be 1-2 people that 
+accounts, to consulting on math libraries and code optimisation, to
+managing HPC software stacks.  In smaller centres it may be 1-2 people that 
 is responsible for everything. Adequately supporting scientists can
 often be a struggle for the support teams regardless of size.  HPC environments are
 extremely complex, and combined with the complexity of multi-user
@@ -26,19 +26,19 @@ supporting HPC users can be extremely demanding.  Meeting all of these
 competing demands of the scientists often results in the creation of
 new tools and establishment of new policies and best practices.
 
-With the fourth HUST workshop, we will continue to provide a necessary
+With the 6th HUST workshop, we will continue to provide a necessary
 forum for system administrators, user support team members, tool
 developers, policy makers and end users to discuss support issues.  We
 solicit papers on user support experiences, best practices, tools, and
-any efforts to streamline support at supercomputing centers.
+any efforts to streamline support at supercomputing centres.
 
-For more information, please see the HUST-17 website [1].
+For more information, please see the HUST19 website [TBD].
 
 Topics
 ------
 
 Topics of interest include, but are not limited to:
-
+				   
 - defining and customising the user environment
 - software build and installation tools
 - tools and frameworks for using system performance analysis tools
@@ -55,41 +55,34 @@ Submission
 
 We invite authors to submit original, high-quality work with
 sufficient background material to be clear to the HPC
-community. Papers should be submitted in PDF format and should not
-exceed 10 pages including tables, figures and appendices, but
-excluding references. They should be formatted according to the
-standard SC17 format, i.e., the double-column IEEE format for
-Conference Proceedings (IEEEtran LaTeX Class (template) V1.8 packages
-and IEEEtran V1.12 BibTeX (bibliography)). Similar to the SC15 policy,
-margins and font sizes should not be modified. We kindly refer authors
-to the necessary templates [2].
+community. Papers should be submitted in PDF format and be a minimum of
+6 pages and should not exceed 10 pages including tables, figures and appendices, but excluding references. 
 
-All submissions should be made electronically through the Easychair
-website [3].  Submissions must be double blind, i.e., authors should
+All submissions should be made electronically through the supercomputing submissions
+website.  Submissions must be double blind, i.e., authors should
 remove their names, institutions or hints found in references to
 earlier work. When discussing past work, they need to refer to
 themselves in the third person, as if they were discussing another
 researcher's work. Furthermore, authors must identify any conflict of
 interest with the PC chair or PC members.
 
-Proceedings will be published in both IEEE Xplore and the ACM Digital
-library through collaboration with ACM SIGHPC.
+Proceedings will be published through the IEEE TCHPC.
 
 Important dates
 ---------------
 
-- Submission deadline: August 12th 2017
-- Workshop paper reviews: by September 19st 2017
-- Acceptance notifications: September 29th 2017
-- Camera-ready papers: October 13th, 2017
-- Workshop: At SC'17, November 12, 2017
+- Submission deadline: August 30, 2019
+- Workshop paper reviews: by September 20, 2019
+- Acceptance notifications: September 25, 2019
+- Camera-ready papers: October 11, 2019
+- Workshop: At SC'19, TBD, 2019
 
 Organisers
 ----------
 
-- Christopher Bording, Pawsey Supercomputing Centre, Australia
-- Todd Gamblin, LLNL, USA
-- Olli-Pekka Lehto, Jump Trading,LLC , United Kingdom
+- Christopher Bording, IBM Research, United Kingdom
+- Elsa Gonsiorowski, LLNL, USA
+- Olli-Pekka Lehto, Jump Trading,LLC , Singapore
 
 ### General Chair
 

@@ -77,31 +77,32 @@
 
 \begin{document}
 \begin{center}
-    \Large{SC'17 workshop proposal}\\~\\
-    \large{\textbf{4th International Workshop on HPC User Support Tools (HUST-170)}}\\~\\
-    \normalsize{Ralph C. Bording (Pawsey Supercomputing Centre), Todd Gamblin (LLNL),\\
+    \Large{SC'19 Workshop Proposal}\\~\\
+    \large{\textbf{6th International Workshop on HPC User Support Tools (HUST-19)}}\\~\\
+    \normalsize{Ralph C. Bording (IBM Research), Elsa Gonsiorowski (LLNL),\\
     Olli-Pekka Lehto (Jump Trading, LLC)}
 \end{center}
 
 \section*{Abstract}
 \label{sec:abstract}
 
-Supercomputing centers exist to drive scientific discovery by supporting researchers in 
-computational science fields.  To make users more productive in the complex HPC
-environment, HPC centers employ user support teams.  These teams
-serve many roles, from setting up accounts, to consulting on math libraries and code
-optimization, to managing HPC software stacks.
-Often, teams struggle to adequately support scientists.
-HPC environments are very complex, and combined with
-the complexity of multi-user installations, exotic hardware, and
-research software, supporting HPC users can be demanding.
+Supercomputing centres exist to drive scientific discovery by supporting researchers in computational science fields. 
+To improve the productivity of the user and the usability of systems in an environment as complex in a typical HPC centre
+they employ specialised support teams and individuals. The broad support effort ranges from basic system admin to 
+managing 100's of Petabytes with complex hierarchal data-storage systems, to supporting high performance networks,  
+or consulting on advanced math libraries, code optimisation, and managing complex HPC software stacks.  Often, 
+support teams struggle to adequately support scientists as HPC environments are extremely complex, and combined 
+with additional  complexity of multi-user installations, exotic hardware, and maintaining research software, to 
+support 100's or even 1000's of HPC users can be extremely demanding.
 
-With the fourth HUST workshop, we will continue to provide a necessary forum for 
-system administrators, support team members, developers, policy makers and
-end users.  We will provide forum to discuss support issues and we will
-provide a publication venue for current support developments.  Best practices,
-user support tools, and any ideas to streamline user support at supercomputing
-centers are in scope.
+The HUST workshop, has been the ideal forum where new and innovative tools such as XALT, SPACK and Easybuild, 
+have been widely announced to the broader HPC community that results into creating the communities and special 
+interest groups about these tools to support entire BoFs, Workshops and Tutorials on these tools at SC, ISC and 
+other HPC conferences     We will continue to provide the necessary forum for system administrators, user support 
+team members, tool developers, policy makers and end users. We will provide a forum to discuss support issues and 
+we will continue to provide a publication venue for current support developments. Best practices, user support tools, 
+and novel ideas to streamline user support efforts at supercomputing centres are in scope for the HUST workshop.
+
 
 %\paragraph{Topic area:} Administration tools, User support
 %\paragraph{Keywords:} user support, tools, best practices, collaboration, community
@@ -135,12 +136,14 @@ For this reason, we started the HUST workshop at SC14.
 The HUST workshop at SC provides the forum for the 
 dissemination of knowledge about best practices and tools for HPC user support teams. 
 Our goal now is to continue the development of a community to aid HPC teams 
-with their user support efforts and to publish peer-reviewed papers through the ACM Digital Library \cite{H14} \cite{H15} \cite{H16}
+with their user support efforts and to publish peer-reviewed papers through the ACM Digital Library \cite{H14} \cite{H15} \cite{H16} \cite{H17}
 . 
 
-The HUST-16 workshop was moved to Sunday morning at SC16 and we saw an increase in the attendees up to 95 compared to 75 at HUST-15 .  The HUST-16 workshop again scored well above the conference average in 'Technical Content', 'Quality of Presentations','Overall Value' and 'Workshop Program', and based on the attendees comments they found the workshop and the presentations of value as HPC practictioners. 
-
-We anticipate that HUST-17 will continue this successful tradition.
+The HUST-18 workshop was on the Sunday morning at SC18 and we saw an increase in the 
+attendees up to over 115 compared to 105 at HUST17 .  The HUST18 workshop again scored well 
+compared to the conference average in 'Technical Content', 'Quality of Presentations','Overall Value' 
+and 'Workshop Program', and based on the attendees comments they found the workshop and the 
+presentations of value as HPC practitioners. 
 
 \subsection*{Scope}
 \label{sec:scope}
@@ -158,7 +161,7 @@ support teams often work in isolation, and this workshop will allow them to bene
 from knowledge sharing and to reduce duplication of effort across sites.
 This in turn allows the community as a whole to benefit from these tools and improve
 the user experience on HPC systems, which hopefully results in maximising the 
-scientific output of each HPC center.
+scientific output of each HPC centre.
 
 \vspace{1em}
 \noindent
@@ -179,8 +182,7 @@ Topics of interest include, but are not limited to:
     with many versions and configurations
 %    and/or update existing ones -- without removal of formerly installed versions --
 %    to meet the researcher's needs.
-	It also comprises tools for allowing to
-    quickly install a complex software stack onto new systems.
+    It also comprises of tools to quickly install a complex software stack onto new systems.
 %    Additionally,
 %    they could provide a mechanism for rebuilding a software stack as part of any
 %    disaster recovery policy. We have experience with such tools, but we would
@@ -213,7 +215,7 @@ Topics of interest include, but are not limited to:
     support teams, either to conduct on existing infrastructure or because new 
     dedicated infrastructure needs to be deployed. We expect tools that
     facilitate Hadoop or Spark workflows to become common in HPC. We are 
-    interested in how centers can efficiently maintain two stacks of software,
+    interested in how centers can efficiently maintain two seperate software toolchains,
     for Big Data using Machine Learning applications and for more traditional HPC.
 
 %    \item \textbf{Establishing baseline configuration efforts for HPC}\\
@@ -235,12 +237,51 @@ Topics of interest include, but are not limited to:
 %    ongoing research, for performing system level testing, etc.
 \end{itemize}
 
+%%\subsection*{Full-day Workshop Format}
+%%\label{full day workshop format}
+%
+%%The format of the workshop that we have envisioned for SC19:
+%
+%%\begin{description}
+%%   \item[9:00] introduction and survey announcement (5 minutes)
+%%    \item[9:05] presentation 1 (15-20 minutes presentations + 5-10 minutes demo/questions)
+%%    \item[9:30] Published paper presentation 1 (15-20 minutes presentation + 5-10 minutes demo/questions)
+%    \item[10:00] BREAK (30 minutes)
+%    \item[10:30] Published paper presentation 2 (15-20 minutes presentations + 5-10 minutes demo/question)
+%    \item[11:00] presentation 2 (15-20 minutes presentations + 5-10 minutes demo/questions)
+%    \item[11:30] Published paper presentation 3 (15-20 minutes presentation + 5-10 minutes demo/questions)
+%    \item[12:00] presentation 3 (15-20 minutes presentations + 5-10 minutes demo/questions)
+%    \item[12:30] LUNCH (1 hour)
+%    \item[13:30] Published paper presentation 4, 5 and 6 (15-20 minutes presentation + 5-10 minutes for demos/questions)
+%    \item[15:00] BREAK (30 minutes)
+%    \item[15:30] Published paper presentation 7 and 8 (15-20 minutes presentation + 5-10 minutes demos/questions)
+%     \item[16:30] panel discussion
+%    \item[17:30] End of Workshop
+%\end{description}
+%
+%During the workshop, we will ask users to fill out an interactive user support
+%survey. We have previously used various online surveys as part of the workshops. 
+%The surveys have been informative and has showed how the HPC community has changed
+%over time to adopt tools and methodologies. As well in helping us respond to new or underdeveloped areas
+%of interest. We expect this year's survey to be similarly edifying.
+%
+%We plan to alternate between presentations and the peer reviewed paper presentations, 
+%with 6 presentations in total in the morning.  Each presentation will be 20-25 minutes with
+%5-10 minutes for questions as time permits.  We will spur the discussion and encourage 
+%a strong interaction between the audience and the presenter, 
+%
+%After lunch we will have two speakers each allowed 30 minutes and 15 minutes for questions.  
+%The last session of the day will have the final two papers being presented using the same format
+%from the morning.
+%
+%We will end the workshop with a panel of experts from major HPC centers, and we will
+%discuss, in light of the presented papers, what the relevant user support issues are.
+%We plan to have the workshop last about 6.5 hours (full-day).
 
-\newpage
-\subsection*{Format}
-\label{format}
+\subsection*{Half-day Workshop Format}
+\label{Half day workshop format}
 
-The format of the workshop will be fairly straightforward. We envision the following the schedule from SC16:
+The format of the workshop will be fairly straightforward. We envision the following the schedule for SC19:
 
 \begin{description}
     \item[9:00] introduction and survey announcement (5 minutes)
@@ -251,24 +292,16 @@ The format of the workshop will be fairly straightforward. We envision the follo
 	\item[12:30] End of workshop
 \end{description}
 
-%\begin{figure}[h!]
-%    \begin{center}
-%        \includegraphics[width=7cm]{timeline}
-%    \end{center}
-%    \caption{Proposed timeline for the workshop.}
-%    \label{fig:timeline}
-%\end{figure}
-
 During the introduction, we will briefly explain the goal and the scope of the
-workshop.%, and outline the survey we plan on organizing.
+workshop, and outline the survey we plan to conduct during the workshop.
 %
 Throughout the workshop, we will ask users to fill out an interactive user support
-survey. We have previously used Socrative\footnote{\url{http://socrative.com}}. 
-The survey has been informative and has showed how the HPC community has changed
-over time to adopt tools and methodologies. We expect this year's survey to be 
-similarly edifying.
+survey. We have previously used various online surveys as part of the workshops. 
+The surveys have been informative and has showed how the HPC community has changed
+over time to adopt tools and methodologies. As well in helping us respond to new or underdeveloped areas
+of interest. We expect this year's survey to be similarly edifying.
 
-We plan to have two sequential tracks for paper presentations, with 5 presentations
+We plan to have two sequential tracks for peer review paper presentations, with 5 presentations
 in total. Depending on the topics of received submissions, these may be organized
 into two sets of related talks. Each presentation will be 25 minutes long.
 We will spur the discussion and encourage a strong interaction between the 
@@ -276,36 +309,37 @@ audience and the presenter, so the presentation should be limited to 15 minutes 
 most, leaving 10 minutes for discussion.
 %
 We will end the workshop with a panel of experts from major HPC centers, and we will
-discuss, in light of the presented papers, what the biggest user support issues are.
+discuss, in light of the presented papers, what the biggest user support issues are. Last 
+year we selected two papers to give extend presentation to allow them give more 
+comprehensive demos of the tools that they had developed.  
 %Finally, we will end the workshop with a brief review of collected survey results and
 %a panel discussion.  
 We plan to have the workshop last about 3.5 hours (half-day).
-A detailed timeline is provided above.
-
 
 \subsection*{Expected outcome}
 \label{outcome}
 
-The main outcome of this workshop is to continue to build a community to enhance 
-the knowledge, tools and best practices for aiding HPC teams with their user support efforts.
-Additionally, this workshop will aid in building awareness about the current lack of
-collaboration and hopefully bring in more HPC sites that wish to share their
-successes and their failures. The main goal is to encourage reuse of efforts and to
-learn from each other, because every  HPC site faces similar challenges at the end of the day.
+The main outcome of this workshop is to continue to foster the creation of new communities
+to further development of the tools and best practices for HPC application support and admin teams with 
+their overall user support efforts.  Additionally, this workshop will help focus on ways to 
+improve collaboration efforts by bringing together more HPC centres that wish to share their
+successes and lessons learned.  By encourage the reuse of past and current efforts and to
+learn from each other, because every HPC site faces very similar challenges at the end of the day.
 
-Second, we again plan to publish the reviewed and accepted papers through a widely
-recognized channel.  Last year we published the workshop papers in the IEEE.
-We will submit a request to SIGHPC to allow the workshop proceedings to be included
-in these libraries. As fallbacks, we will also consider ACM Digital Library and Lecture Notes in
-Computer Science\footnote{\url{http://www.springer.com/computer/lncs}} (LNCS).
-
+We want to publish 5-8 peer reviewed papers through the IEEE TCHPC,
+from either the full day or half-day workshop.  
 Finally, a workshop report will be written and distributed. Based on the success of the
 past workshops, we plan to continue this event and as a hub for the HPC 
-user support community.  Based on the increase in the number attendees who joined us last year,
-and the positive feedback in the reviews and the discussion after the workshop we believe
-that our goal is within reach, and that this workshop will continue to encourage 
-better collaboration.
+user support community. We feel that the HUST workshop has been key helping raising 
+the awareness of new tools such SPACK, Easybuild, LMOD, XDMoD and other tools that has resulted 
+the creation of their own special interest groups, conference tutorials, BoFs and promoting those tools.  
+We feel that the HUST workshop is achieving the overall objective of the HUST organising community, the 
+objectives of the SC Workshop organisers and the need of the HPC community at large, 
 
+The increase in the number attendees who joined us last year,
+and the positive feedback in the reviews and the discussion after the workshop we believe
+that we are achieving our goals is within and that this workshop will continue to encourage 
+better collaboration and uptake of new tools. 
 
 \subsection*{Advertising and soliciting submissions}
 \label{advertising}
@@ -316,7 +350,7 @@ We intend to distribute the call for papers for the workshop via the usual chann
     \item Mailing lists and forums specific to HPC communities;
     \item use EasyChair's new CFP feature
     \item Social networks: Twitter, Reddit, IRC, \ldots;
-    \item Promotion at various HPC events, such as the Cray User Group 2017(Seatle-USA,May 2017, ISC'17 (Frankfurt - Germany, June 2017). ICS, and other HPC Conferences.
+    \item Promotion at various HPC events, such as the Cray User Group 2019 (Montreal, Canada May 2019, ISC'19 (Frankfurt - Germany, June 2019) and other HPC Conferences.
 \end{itemize}
 \noindent
 In addition, we will also contact relevant peers in our professional network, including the PRACE consortium, the EasyBuild, Spack and Maali build system communities, DOE National Laboratories, and other groups that include HPC sites worldwide.
@@ -327,53 +361,48 @@ In addition, we will also contact relevant peers in our professional network, in
 We plan to adhere to the following timeline:
 
 \begin{itemize}
-    \item \textbf{Call for papers} issued and \textbf{submissions open}: end of April 2017\footnote{The exact date depends on the SIGHPC notification.}
-    \item \textbf{Submission deadline}: August 18th 2017 (optional extension: August 25th 2017)
-    \item \textbf{Workshop paper reviews}: by September 18th 2017
-    \item \textbf{Final program committee meeting}: week of 18th September 2017
-    \item \textbf{Acceptance notifications}: September 22nd 2017
-    \item \textbf{Camera-ready papers}: October 13th 2017
-    \item \textbf{Workshop}: At SC'17
+    \item \textbf{Call for papers} issued and \textbf{submissions open}: end of April 2019 footnote{The exact date depends on the IEEE-TCHPC notification.}
+    \item \textbf{Submission deadline}: August 30, 2019 (optional extension: September 7, 2019)
+    \item \textbf{Workshop paper reviews}: by September 20, 2019
+    \item \textbf{Final program committee meeting}: week of 20th September 2019
+    \item \textbf{Acceptance notifications}: September 25, 2019
+    \item \textbf{Camera-ready papers}: October 11, 2019
+    \item \textbf{Workshop}: At SC'19
 \end{itemize}
 \noindent
-We will open submissions as soon a possible after acceptance notification, taking into account time required for confirmation of SIGHPC cooperation status (4 weeks). With acceptance notification planned for late March 2017, we should be able to open submissions \textbf{end of April 2017}.
+We will open submissions as soon a possible after acceptance notification, taking into account time required for confirmation of IEEE-TCHPC cooperation status (4 weeks). With acceptance notification planned for late March 2019, we should be able to open submissions \textbf{end of April 2019}.
+
+The submission deadline is tentatively \textbf{August 30, 2019}, optionally extended to September 7, 2019 in case we are not satisfied with the number of submissions. We hope to get at least 10 submissions again.
 %
-The submission deadline is tentatively \textbf{August 18th 2017}, optionally extended to August 19th in case
-we are not satisfied with the number of submissions. We hope to get at least 10 submissions again.
+%PC members should review their papers by \textbf{September 18th 2018},
+%and the final PC meeting will take place in the \textbf{the week of 18th September 2018}.
 %
-%PC members should review their papers by \textbf{September 18th 2017},
-%and the final PC meeting will take place in the \textbf{the week of 18th September 2017}.
+%This should allow us to notify authors on \textbf{September 22nd 2018}.  We will require camera-ready workshop papers to be submitted by \textbf{October 13th 2018}, in time for the October 15th SIGHPC deadline.
 %
-%This should allow us to notify authors on \textbf{September 22nd 2017}.  We will require camera-ready workshop papers to be submitted by \textbf{October 13th 2017}, in time for the October 15th SIGHPC deadline.
-%
-The workshop should take place on \textbf{November 12th, 13th or 17th, 2017}.
+The workshop should take place in \textbf{November 2019 in Denver, Colorado}.
 
 \section*{Potential program committee members}
 The following is a non-exhaustive list of potential invitees:
   \begin{multicols}{3}\footnotesize
     \begin{itemize}
-        \item Daniel Ahlin - (PDC,KTH)
-        \item Tim Brown -(UC-Boulder)
+        \item Daniel Ahlin - (KTH)
+        \item David Bernholdt - (ORNL)
+        \item Mozhgan Chimeh - (Sheffield University)
+	\item Erik Engquist - (Rice U)
         \item Wolfgang Frings, (JSC)
-        \item Andy Georges - (U. Ghent)        
-	\item Vera Hansper (CSC-Finland)
-        \item Chris Harris - (Pawsey)
-        \item Kenneth Hoste - (U. Ghent)
+        \item Andy Georges - (U. Ghent)
+	\item Markus Geimer - (JSC)        
+        \item Chris Harris - (Pawsey Supercomputing Centre)
 	\item Paul Kolano, (NASA-Ames)
-        \item James Lin (Shanghai JTU)
-        \item John Linford (ParaTools)
+        \item John Linford (ARM)
         \item Robert McLay (TACC)
-        \item Dave Montoya (LANL)
- 	\item Randy Schauer - (ARL)
-        \item Dane Skow (Dane Skow Enterprises)       
-        \item William Scullin - (ANL)
-	\item Karen Tomko - (OSC)
+        \item Dave Montoya (LANL) 
+        \item William Scullin - (Argonne National Laboratory)
+	\item Karen Tomko - (Ohio Supercomputing Center)
     \end{itemize}
   \end{multicols}
 
-
-
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 % references
 
 \bibitem[Bor14]{H14}{Bording, C. and Georges,A. },``Proceedings of the First International Workshop on HPC User Support Tools," \emph{ SC14 International Conference for High Performance Computing, Networking, Storage and Analysis}, New Orleans, LA, 2014.
@@ -382,16 +411,7 @@ The following is a non-exhaustive list of potential invitees:
 
 \bibitem[Bor16]{H16}{Bording, C., Gamblin, T., and Hansper,V. },``Proceedings of the Third International Workshop on HPC User Support Tools," \emph{ SC16 International Conference for High Performance Computing, Networking, Storage and Analysis}, Salt Lake City, UT, 2016.
 
+\bibitem[Bor17]{H17}{Bording, C., Gamblin, T., and Lehto, O. },``Proceedings of the Fourth International Workshop on HPC User Support Tools," \emph{ SC17 International Conference for High Performance Computing, Networking, Storage and Analysis}, Denver, CO, 2017.
 \end{thebibliography}
-
-\begin{itemize} 
-    \item[(1)] \url{https://github.com/hpcugent/easybuild/wiki/SC13-BoF-session}
-    \item[(2)] \url{https://sites.google.com/site/smallhpc/home}
-    \item[(3)] \url{http://www.isc-events.com/isc13_ap/presentationdetails.php?t=contribution&o=2108&a=select&ra=eventdetails}
-    \item[(4)] \url{http://sc13.supercomputing.org/schedule/event_detail.php?evid=bof111}
-    \item[(5)] \url{http://hpcugent.github.io/easybuild/fosdem14.html}  
-    \item[(6)] \url{http://scalability-llnl.github.io/spack/}  
-    \item[(7)] \url{http://www.ieee.org/conferences_events/conferences/publishing/templates.html}   
-\end{itemize}
 
 \end{document}
